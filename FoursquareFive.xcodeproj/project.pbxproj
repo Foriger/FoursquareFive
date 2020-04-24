@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D546A54245323CA00F5BBF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D546A53245323CA00F5BBF5 /* AppDelegate.swift */; };
+		6D546A56245323CA00F5BBF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D546A55245323CA00F5BBF5 /* SceneDelegate.swift */; };
+		6D546A5B245323CA00F5BBF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D546A59245323CA00F5BBF5 /* Main.storyboard */; };
+		6D546A60245323CF00F5BBF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D546A5F245323CF00F5BBF5 /* Assets.xcassets */; };
+		6D546A63245323CF00F5BBF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D546A61245323CF00F5BBF5 /* LaunchScreen.storyboard */; };
+		6D546A6B2453254A00F5BBF5 /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D546A6A2453254A00F5BBF5 /* PlacesViewController.swift */; };
+		6D546A6D2453255C00F5BBF5 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D546A6C2453255C00F5BBF5 /* AboutUsViewController.swift */; };
+		6D546A6F245325FA00F5BBF5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D546A6E245325FA00F5BBF5 /* MainViewController.swift */; };
+		6D546A7124536EBE00F5BBF5 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D546A7024536EBE00F5BBF5 /* API.swift */; };
+		6D546A73245461F000F5BBF5 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D546A72245461F000F5BBF5 /* CoreDataStack.swift */; };
+		6D546A7524547ABC00F5BBF5 /* FoursquareModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D546A7424547ABC00F5BBF5 /* FoursquareModel.swift */; };
+		6D546A7D2454EB9300F5BBF5 /* FoursquareSecrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6D546A7C2454EB9300F5BBF5 /* FoursquareSecrets.plist */; };
+		6D546A7F2454EC4400F5BBF5 /* FoursquareSecrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D546A7E2454EC4400F5BBF5 /* FoursquareSecrets.swift */; };
+		6DCEB20E24557394004E821D /* VenueDTO+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCEB20A24557394004E821D /* VenueDTO+CoreDataClass.swift */; };
+		6DCEB20F24557394004E821D /* VenueDTO+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCEB20B24557394004E821D /* VenueDTO+CoreDataProperties.swift */; };
+		6DCEB21024557394004E821D /* LocationDTO+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCEB20C24557394004E821D /* LocationDTO+CoreDataClass.swift */; };
+		6DCEB21124557394004E821D /* LocationDTO+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCEB20D24557394004E821D /* LocationDTO+CoreDataProperties.swift */; };
+		6DCEB21324557A91004E821D /* FoursquareFive.xcdatamodeld in Resources */ = {isa = PBXBuildFile; fileRef = 6D546A5C245323CA00F5BBF5 /* FoursquareFive.xcdatamodeld */; };
+		6DCEB215245599AB004E821D /* PlacesOnlineManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCEB214245599AB004E821D /* PlacesOnlineManager.swift */; };
+		6DCEB21724559F3C004E821D /* PlacesOfflineManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCEB21624559F3C004E821D /* PlacesOfflineManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6D546A50245323CA00F5BBF5 /* FoursquareFive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoursquareFive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D546A53245323CA00F5BBF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6D546A55245323CA00F5BBF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6D546A5A245323CA00F5BBF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D546A5D245323CA00F5BBF5 /* FoursquareFive.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoursquareFive.xcdatamodel; sourceTree = "<group>"; };
+		6D546A5F245323CF00F5BBF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D546A62245323CF00F5BBF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D546A64245323CF00F5BBF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D546A6A2453254A00F5BBF5 /* PlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
+		6D546A6C2453255C00F5BBF5 /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		6D546A6E245325FA00F5BBF5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		6D546A7024536EBE00F5BBF5 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		6D546A72245461F000F5BBF5 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		6D546A7424547ABC00F5BBF5 /* FoursquareModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoursquareModel.swift; sourceTree = "<group>"; };
+		6D546A7C2454EB9300F5BBF5 /* FoursquareSecrets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = FoursquareSecrets.plist; sourceTree = "<group>"; };
+		6D546A7E2454EC4400F5BBF5 /* FoursquareSecrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoursquareSecrets.swift; sourceTree = "<group>"; };
+		6DCEB20A24557394004E821D /* VenueDTO+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VenueDTO+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6DCEB20B24557394004E821D /* VenueDTO+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VenueDTO+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6DCEB20C24557394004E821D /* LocationDTO+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LocationDTO+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6DCEB20D24557394004E821D /* LocationDTO+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LocationDTO+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6DCEB214245599AB004E821D /* PlacesOnlineManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesOnlineManager.swift; sourceTree = "<group>"; };
+		6DCEB21624559F3C004E821D /* PlacesOfflineManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesOfflineManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D546A4D245323CA00F5BBF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D546A47245323CA00F5BBF5 = {
+			isa = PBXGroup;
+			children = (
+				6D546A52245323CA00F5BBF5 /* FoursquareFive */,
+				6D546A51245323CA00F5BBF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D546A51245323CA00F5BBF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D546A50245323CA00F5BBF5 /* FoursquareFive.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D546A52245323CA00F5BBF5 /* FoursquareFive */ = {
+			isa = PBXGroup;
+			children = (
+				6D546A832454ED5300F5BBF5 /* Networking */,
+				6D546A822454ED3E00F5BBF5 /* Core Data */,
+				6D546A812454ED2800F5BBF5 /* Foursquare Secrets */,
+				6D546A802454ED0300F5BBF5 /* View Controllers */,
+				6D546A53245323CA00F5BBF5 /* AppDelegate.swift */,
+				6D546A55245323CA00F5BBF5 /* SceneDelegate.swift */,
+				6D546A59245323CA00F5BBF5 /* Main.storyboard */,
+				6D546A5F245323CF00F5BBF5 /* Assets.xcassets */,
+				6D546A61245323CF00F5BBF5 /* LaunchScreen.storyboard */,
+				6D546A64245323CF00F5BBF5 /* Info.plist */,
+			);
+			path = FoursquareFive;
+			sourceTree = "<group>";
+		};
+		6D546A802454ED0300F5BBF5 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6D546A6A2453254A00F5BBF5 /* PlacesViewController.swift */,
+				6DCEB214245599AB004E821D /* PlacesOnlineManager.swift */,
+				6DCEB21624559F3C004E821D /* PlacesOfflineManager.swift */,
+				6D546A6C2453255C00F5BBF5 /* AboutUsViewController.swift */,
+				6D546A6E245325FA00F5BBF5 /* MainViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		6D546A812454ED2800F5BBF5 /* Foursquare Secrets */ = {
+			isa = PBXGroup;
+			children = (
+				6D546A7C2454EB9300F5BBF5 /* FoursquareSecrets.plist */,
+				6D546A7E2454EC4400F5BBF5 /* FoursquareSecrets.swift */,
+			);
+			path = "Foursquare Secrets";
+			sourceTree = "<group>";
+		};
+		6D546A822454ED3E00F5BBF5 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				6DCEB20A24557394004E821D /* VenueDTO+CoreDataClass.swift */,
+				6DCEB20B24557394004E821D /* VenueDTO+CoreDataProperties.swift */,
+				6DCEB20C24557394004E821D /* LocationDTO+CoreDataClass.swift */,
+				6DCEB20D24557394004E821D /* LocationDTO+CoreDataProperties.swift */,
+				6D546A5C245323CA00F5BBF5 /* FoursquareFive.xcdatamodeld */,
+				6D546A72245461F000F5BBF5 /* CoreDataStack.swift */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		6D546A832454ED5300F5BBF5 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				6D546A7024536EBE00F5BBF5 /* API.swift */,
+				6D546A7424547ABC00F5BBF5 /* FoursquareModel.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D546A4F245323CA00F5BBF5 /* FoursquareFive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D546A67245323CF00F5BBF5 /* Build configuration list for PBXNativeTarget "FoursquareFive" */;
+			buildPhases = (
+				6D546A4C245323CA00F5BBF5 /* Sources */,
+				6D546A4D245323CA00F5BBF5 /* Frameworks */,
+				6D546A4E245323CA00F5BBF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoursquareFive;
+			productName = FoursquareFive;
+			productReference = 6D546A50245323CA00F5BBF5 /* FoursquareFive.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D546A48245323CA00F5BBF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Radoslav Penev";
+				TargetAttributes = {
+					6D546A4F245323CA00F5BBF5 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 6D546A4B245323CA00F5BBF5 /* Build configuration list for PBXProject "FoursquareFive" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D546A47245323CA00F5BBF5;
+			productRefGroup = 6D546A51245323CA00F5BBF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D546A4F245323CA00F5BBF5 /* FoursquareFive */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D546A4E245323CA00F5BBF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DCEB21324557A91004E821D /* FoursquareFive.xcdatamodeld in Resources */,
+				6D546A63245323CF00F5BBF5 /* LaunchScreen.storyboard in Resources */,
+				6D546A60245323CF00F5BBF5 /* Assets.xcassets in Resources */,
+				6D546A5B245323CA00F5BBF5 /* Main.storyboard in Resources */,
+				6D546A7D2454EB9300F5BBF5 /* FoursquareSecrets.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D546A4C245323CA00F5BBF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D546A7F2454EC4400F5BBF5 /* FoursquareSecrets.swift in Sources */,
+				6D546A6F245325FA00F5BBF5 /* MainViewController.swift in Sources */,
+				6DCEB20F24557394004E821D /* VenueDTO+CoreDataProperties.swift in Sources */,
+				6DCEB20E24557394004E821D /* VenueDTO+CoreDataClass.swift in Sources */,
+				6DCEB21124557394004E821D /* LocationDTO+CoreDataProperties.swift in Sources */,
+				6DCEB21024557394004E821D /* LocationDTO+CoreDataClass.swift in Sources */,
+				6D546A54245323CA00F5BBF5 /* AppDelegate.swift in Sources */,
+				6D546A73245461F000F5BBF5 /* CoreDataStack.swift in Sources */,
+				6DCEB21724559F3C004E821D /* PlacesOfflineManager.swift in Sources */,
+				6D546A6B2453254A00F5BBF5 /* PlacesViewController.swift in Sources */,
+				6DCEB215245599AB004E821D /* PlacesOnlineManager.swift in Sources */,
+				6D546A7524547ABC00F5BBF5 /* FoursquareModel.swift in Sources */,
+				6D546A6D2453255C00F5BBF5 /* AboutUsViewController.swift in Sources */,
+				6D546A7124536EBE00F5BBF5 /* API.swift in Sources */,
+				6D546A56245323CA00F5BBF5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6D546A59245323CA00F5BBF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D546A5A245323CA00F5BBF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D546A61245323CF00F5BBF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D546A62245323CF00F5BBF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D546A65245323CF00F5BBF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6D546A66245323CF00F5BBF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D546A68245323CF00F5BBF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB6SNKVA2R;
+				INFOPLIST_FILE = FoursquareFive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.radoslavpenev.FoursquareFive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D546A69245323CF00F5BBF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB6SNKVA2R;
+				INFOPLIST_FILE = FoursquareFive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.radoslavpenev.FoursquareFive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D546A4B245323CA00F5BBF5 /* Build configuration list for PBXProject "FoursquareFive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D546A65245323CF00F5BBF5 /* Debug */,
+				6D546A66245323CF00F5BBF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D546A67245323CF00F5BBF5 /* Build configuration list for PBXNativeTarget "FoursquareFive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D546A68245323CF00F5BBF5 /* Debug */,
+				6D546A69245323CF00F5BBF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6D546A5C245323CA00F5BBF5 /* FoursquareFive.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6D546A5D245323CA00F5BBF5 /* FoursquareFive.xcdatamodel */,
+			);
+			currentVersion = 6D546A5D245323CA00F5BBF5 /* FoursquareFive.xcdatamodel */;
+			path = FoursquareFive.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6D546A48245323CA00F5BBF5 /* Project object */;
+}
